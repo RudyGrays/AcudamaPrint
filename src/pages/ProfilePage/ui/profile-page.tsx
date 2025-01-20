@@ -52,8 +52,8 @@ export const ProfilePage = () => {
 
   return (
     <PageAnimationContainer>
-      <div className="w-full flex h-full justify-center items-center">
-        <div className="max-w-[800px] w-full flex flex-col gap-5">
+      <div className="w-full flex max-h-[100%] h-full justify-center items-center ">
+        <div className="max-w-[800px] w-full max-h-min h-full  flex flex-col gap-5">
           <div className="flex gap-2 flex-wrap">
             <div className="flex flex-col  grow items-center justify-center gap-2 bg-secondary p-2 rounded">
               <span className="text-[0.7rem] w-full flex justify-start">
@@ -93,6 +93,7 @@ export const ProfilePage = () => {
             </span>
             {!problemChars.length ? "-" : <CharsArea values={problemChars} />}
           </div>
+
           <div className="flex  flex-col gap-5">
             <div className="w-full  border p-2 flex rounded flex-col gap-3">
               <div className="max-h-[200px] h-full">

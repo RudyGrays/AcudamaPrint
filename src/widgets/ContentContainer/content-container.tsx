@@ -8,7 +8,7 @@ export const ContentContainer = ({ children }: { children: ReactNode }) => {
   return (
     <main
       style={{ marginLeft: `${isFocus ? 0 : 120}px` }}
-      className={` grow px-2 transition-all  `}
+      className={` grow px-2 transition-all  overflow-auto h-full`}
     >
       {children}
     </main>
