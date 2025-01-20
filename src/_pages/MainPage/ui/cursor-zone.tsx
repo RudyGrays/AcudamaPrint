@@ -1,3 +1,4 @@
+"use client";
 import { SquareMousePointer } from "lucide-react";
 
 export const CursorZone = ({ isLess600 }: { isLess600: boolean }) => {
